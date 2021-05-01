@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import Navbar from "./Navbar";
+import { Container } from "./style";
 
 function App() {
   return (
@@ -8,10 +8,5 @@ function App() {
     </Container>
   );
 }
-
-const Container = styled.div`
-  background: #00adb5;
-  height: 100vh;
-`;
 
 export default App;
